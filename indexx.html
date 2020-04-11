@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Play Crawler</title>
+    <style>
+      .absolute-center {
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
+      }
+    </style>
+    <script>
+      function redirect() {
+        setTimeout(function () {
+          window.location.replace("https://infinite-tundra-32320.herokuapp.com/api/");
+        }, 50);
+      }
+    </script>
+  </head>
+  <body onload="redirect()">
+    <div class="absolute-center">
+      <a
+        href="#"
+        style="font-weight: 900; font-size: xx-large; text-decoration: none; text-transform: uppercase;"
+      >
+      Google Play Crawler
+      </a>
+    </div>
+  </body>
+</html>
